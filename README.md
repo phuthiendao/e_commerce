@@ -1,6 +1,7 @@
 # e_commerce_project
 
 ## Project structure
+
 ├── data/
 │   ├── raw/                    # raw data
 │   └── processed/              # processed data
@@ -11,4 +12,4 @@
 ├── src/
 │   └── clustering_library.py         # Main Library
 ├── docs/
-│   └── project_description.md        # Detailed project description
+    └── project_description.md        # Detailed project description
