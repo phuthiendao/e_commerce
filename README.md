@@ -3,13 +3,17 @@
 ## Project structure
 
 ├── data/
-│   ├── raw/                    # raw data
-│   └── processed/              # processed data
+│   ├── raw/                    # Raw data (original datasets)
+│   └── processed/              # Cleaned and transformed data
+│
 ├── notebooks/
-│   ├── 01_cleaning_and_eda.ipynb     
-│   ├── 02_feature_engineering.ipynb  
-│   └── 03_modeling.ipynb             # model clustering
+│   ├── 01_cleaning_and_eda.ipynb        # Data cleaning & exploratory analysis
+│   ├── 02_feature_engineering.ipynb     # Feature engineering
+│   └── 03_modeling.ipynb                # Clustering model development
+│
 ├── src/
-│   └── clustering_library.py         # Main Library
-├── docs/
-    └── project_description.md        # Detailed project description
+│   └── clustering_library.py            # Main clustering library
+│
+└── docs/
+    └── project_description.md           # Full project documentation
+
