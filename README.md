@@ -2,18 +2,18 @@
 
 ## Project structure
 
+```
 ├── data/
-│   ├── raw/                    # Raw data (original datasets)
-│   └── processed/              # Cleaned and transformed data
-│
+│   ├── raw/                    # Dữ liệu thô
+│   └── processed/              # Dữ liệu đã xử lý
 ├── notebooks/
-│   ├── 01_cleaning_and_eda.ipynb        # Data cleaning & exploratory analysis
-│   ├── 02_feature_engineering.ipynb     # Feature engineering
-│   └── 03_modeling.ipynb                # Clustering model development
-│
+│   ├── 01_cleaning_and_eda.ipynb     # Làm sạch dữ liệu và EDA
+│   ├── 02_feature_engineering.ipynb  # Xây dựng features
+│   └── 03_modeling.ipynb             # Mô hình clustering
 ├── src/
-│   └── clustering_library.py            # Main clustering library
-│
-└── docs/
-    └── project_description.md           # Full project documentation
+│   └── clustering_library.py         # Thư viện chính
+├── docs/
+│   └── project_description.md        # Mô tả chi tiết dự án
+└── requirements.txt                  # Dependencies
+```
 
