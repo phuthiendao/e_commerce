@@ -10,24 +10,27 @@ Analyze customer transaction data to:
 
 ## Data
 
-- **Source**: Online retail company transaction data from the UK (2010-2011)
-- **Size**: 541,909 transactions from 4,372 customers
-- **Features**: Unique gift and household product transactions
+- **Source**: Online retail company transaction data from a North American (NA) retail technology company.
+- **Size**: 19,579 transactions from 1,628 North American customers
+- **Features**:SaaS application transactions
 
+  
 ## Project Structure
 
 ```
 ├── data/
-│   ├── raw/                    # Dữ liệu thô
-│   └── processed/              # Dữ liệu đã xử lý
+│   ├── raw/                    # Raw data
+│   └── processed/              # Processed data
 ├── notebooks/
-│   ├── 01_cleaning_and_eda.ipynb     # Làm sạch dữ liệu và EDA
-│   ├── 02_feature_engineering.ipynb  # Xây dựng features
-│   └── 03_modeling.ipynb             # Mô hình clustering
+│   ├── 01_cleaning_and_eda.ipynb     # Data cleaning and EDA
+│   ├── 02_feature_engineering.ipynb  # Feature engineering
+│   └── 03_modeling.ipynb             # Clustering model
+├── sql_scripts/
+|
 ├── src/
-│   └── clustering_library.py         # Thư viện chính
+│   └── clustering_library.py         # Main clustering library
 ├── docs/
-│   └── project_description.md        # Mô tả chi tiết dự án
+│   └── project_description.md        # Detailed project description
 └── requirements.txt                  # Dependencies
 ```
 
