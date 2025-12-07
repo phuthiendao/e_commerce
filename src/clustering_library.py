@@ -1031,7 +1031,7 @@ class ClusterAnalyzer:
         }
 
         # Print results
-        print(f"=== TRAINING SURROGATE MODEL (k={k}) ===")
+        print(f"TRAINING SURROGATE MODEL (k={k})")
         print(f"Accuracy: {accuracy:.4f} ({accuracy*100:.2f}%)")
         print(f"\nConfusion Matrix:")
         print(conf_matrix)
