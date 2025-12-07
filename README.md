@@ -34,6 +34,42 @@ Analyze customer transaction data to:
 └── requirements.txt                  # Dependencies
 ```
 
+## Summary of results
+## Customer Segmentation Workflow (North American SaaS Retail Data)
+
+## 1. Data Filtering
+- From the raw SaaS retail dataset, filter and extract data specifically for the **North American** region.
+
+## 2. Exploratory Data Analysis (EDA)
+- Analyze the dataset to uncover basic insights and meaningful information.
+
+## 3. Feature Engineering
+- Create new, useful features from the original dataset that are suitable for the **K-means clustering algorithm** (customer segmentation).
+
+## 4. Data Transformation
+- Apply **Box-Cox transformation** and **standardization** to the engineered features to ensure optimal algorithm performance.
+
+## 5. Determining Optimal Number of Clusters
+- Use the following methods to identify the optimal number of clusters:
+  - **Elbow Method**
+  - **Silhouette Score**
+  - **Principal Component Analysis (PCA)**
+
+## 6. Customer Segmentation with K-means
+- Apply the **K-means algorithm** to segment customers into **4 main clusters**.
+  - **Cluster 0 – High-Potential Customers (20%)**
+  - **Cluster 1 – VIP Enterprise (28%)**
+  - **Cluster 2 – Economy Tier (21%)**
+  - **Cluster 3 – Loyal Regulars (31%)**
+  
+- Visualize the clusters using:
+  - **Radar charts**
+  - **SHAP** values to interpret the characteristics and meaning of each cluster.
+
+## 7. Business Strategy Recommendations
+- Propose appropriate business strategies tailored to each customer cluster.
+
+
 ## Quick Start
 
 1. **Install dependencies:**
